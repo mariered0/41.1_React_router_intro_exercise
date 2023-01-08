@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useIncrement from "./hooks/useIncrement";
 import './Chips.css'
 
@@ -11,7 +12,7 @@ const Chips = () => {
             <p>Pieces Eaten: {num}</p>
             <button onClick={incrementNum}>NOM NOM NOM</button>
             <br></br>
-            <a href="/">Go Back</a>
+            <Link to="/">Go Back</Link>
         </div>
     )
     

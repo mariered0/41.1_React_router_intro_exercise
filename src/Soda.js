@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Soda.css';
 
 const Soda = () => {
@@ -6,7 +7,7 @@ const Soda = () => {
         <div className="Soda">
         <h1>Soda</h1>
         <p>OMG Sugarrrrrr</p>
-        <a href="/">Go Back</a>
+        <Link to="/">Go Back</Link>
         </div>
     )
     

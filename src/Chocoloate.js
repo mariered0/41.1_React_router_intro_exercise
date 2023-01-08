@@ -1,5 +1,6 @@
 import React from "react";
 import useIncrement from "./hooks/useIncrement";
+import { Link } from "react-router-dom";
 import './Chocolate.css';
 
 const Chocolate = () => {
@@ -11,7 +12,7 @@ const Chocolate = () => {
             <p>Pieces Eaten: {num}</p>
             <button onClick={incrementNum}>NOM NOM NOM</button>
             <br></br>
-            <a href="/">Go Back</a>
+            <Link to="/">Go Back</Link>
         </div>
 
     )
