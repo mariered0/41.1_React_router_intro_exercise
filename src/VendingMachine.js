@@ -1,14 +1,16 @@
 import React, { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import "./App.css";
+import "./VendingMachine.css";
 
 const VendingMachine = () => {
-    return (
-        <>
+  return (
+    <div className="VendingMachine">
+      <div className="VendingMachine-comment">
         <h1>Hello, I am a Vending Machine. What would you like to eat?</h1>
-        <Navbar />
-        </>
-    )
-}
+      </div>
+      <Navbar />
+    </div>
+  );
+};
 
 export default VendingMachine;
